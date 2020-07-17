@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lzw">
+      <UniqueIdentifier>{cb4bb384-2c7b-49ec-8a7b-c97b7c2b3e63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\lzw\hash.c">
+      <Filter>lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lzw\lzw.c">
+      <Filter>lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lzw\u4decode.cpp">
+      <Filter>lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\annotation.cpp" />
+    <ClCompile Include="..\src\armor.cpp" />
+    <ClCompile Include="..\src\aura.cpp" />
+    <ClCompile Include="..\src\camp.cpp" />
+    <ClCompile Include="..\src\city.cpp" />
+    <ClCompile Include="..\src\codex.cpp" />
+    <ClCompile Include="..\src\combat.cpp" />
+    <ClCompile Include="..\src\config.cpp" />
+    <ClCompile Include="..\src\controller.cpp" />
+    <ClCompile Include="..\src\conversation.cpp" />
+    <ClCompile Include="..\src\creature.cpp" />
+    <ClCompile Include="..\src\death.cpp" />
+    <ClCompile Include="..\src\debug.cpp" />
+    <ClCompile Include="..\src\dialogueloader.cpp" />
+    <ClCompile Include="..\src\dialogueloader_tlk.cpp" />
+    <ClCompile Include="..\src\direction.cpp" />
+    <ClCompile Include="..\src\dungeon.cpp" />
+    <ClCompile Include="..\src\error.cpp" />
+    <ClCompile Include="..\src\event.cpp" />
+    <ClCompile Include="..\src\event_sdl.cpp" />
+    <ClCompile Include="..\src\filesystem.cpp" />
+    <ClCompile Include="..\src\game.cpp" />
+    <ClCompile Include="..\src\image_sdl.cpp" />
+    <ClCompile Include="..\src\imageloader.cpp" />
+    <ClCompile Include="..\src\imageloader_png.cpp" />
+    <ClCompile Include="..\src\imageloader_u4.cpp" />
+    <ClCompile Include="..\src\imagemgr.cpp" />
+    <ClCompile Include="..\src\intro.cpp" />
+    <ClCompile Include="..\src\io.cpp" />
+    <ClCompile Include="..\src\item.cpp" />
+    <ClCompile Include="..\src\location.cpp" />
+    <ClCompile Include="..\src\map.cpp" />
+    <ClCompile Include="..\src\maploader.cpp" />
+    <ClCompile Include="..\src\mapmgr.cpp" />
+    <ClCompile Include="..\src\menu.cpp" />
+    <ClCompile Include="..\src\moongate.cpp" />
+    <ClCompile Include="..\src\movement.cpp" />
+    <ClCompile Include="..\src\music.cpp" />
+    <ClCompile Include="..\src\names.cpp" />
+    <ClCompile Include="..\src\object.cpp" />
+    <ClCompile Include="..\src\person.cpp" />
+    <ClCompile Include="..\src\player.cpp" />
+    <ClCompile Include="..\src\portal.cpp" />
+    <ClCompile Include="..\src\progress_bar.cpp" />
+    <ClCompile Include="..\src\rle.cpp" />
+    <ClCompile Include="..\src\savegame.cpp" />
+    <ClCompile Include="..\src\scale.cpp" />
+    <ClCompile Include="..\src\screen.cpp" />
+    <ClCompile Include="..\src\screen_sdl.cpp" />
+    <ClCompile Include="..\src\script.cpp" />
+    <ClCompile Include="..\src\settings.cpp" />
+    <ClCompile Include="..\src\shrine.cpp" />
+    <ClCompile Include="..\src\sound.cpp" />
+    <ClCompile Include="..\src\spell.cpp" />
+    <ClCompile Include="..\src\stats.cpp" />
+    <ClCompile Include="..\src\textview.cpp" />
+    <ClCompile Include="..\src\tile.cpp" />
+    <ClCompile Include="..\src\tileanim.cpp" />
+    <ClCompile Include="..\src\tilemap.cpp" />
+    <ClCompile Include="..\src\tileset.cpp" />
+    <ClCompile Include="..\src\u4.cpp" />
+    <ClCompile Include="..\src\u4_sdl.cpp" />
+    <ClCompile Include="..\src\u4file.cpp" />
+    <ClCompile Include="..\src\unzip.c" />
+    <ClCompile Include="..\src\utils.cpp" />
+    <ClCompile Include="..\src\view.cpp" />
+    <ClCompile Include="..\src\weapon.cpp" />
+    <ClCompile Include="..\src\xml.cpp" />
+    <ClCompile Include="..\src\dungeonview.cpp" />
+    <ClCompile Include="..\src\tileview.cpp" />
+    <ClCompile Include="..\src\menuitem.cpp" />
+    <ClCompile Include="..\src\cheat.cpp" />
+    <ClCompile Include="..\src\music_sdl.cpp" />
+    <ClCompile Include="..\src\imageview.cpp" />
+    <ClCompile Include="..\src\context.cpp" />
+    <ClCompile Include="..\src\sound_sdl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\lzw\hash.h">
+      <Filter>lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lzw\lzw.h">
+      <Filter>lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lzw\u4decode.h">
+      <Filter>lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\annotation.h" />
+    <ClInclude Include="..\src\armor.h" />
+    <ClInclude Include="..\src\aura.h" />
+    <ClInclude Include="..\src\camp.h" />
+    <ClInclude Include="..\src\city.h" />
+    <ClInclude Include="..\src\codex.h" />
+    <ClInclude Include="..\src\combat.h" />
+    <ClInclude Include="..\src\config.h" />
+    <ClInclude Include="..\src\context.h" />
+    <ClInclude Include="..\src\controller.h" />
+    <ClInclude Include="..\src\conversation.h" />
+    <ClInclude Include="..\src\coords.h" />
+    <ClInclude Include="..\src\creature.h" />
+    <ClInclude Include="..\src\death.h" />
+    <ClInclude Include="..\src\debug.h" />
+    <ClInclude Include="..\src\dialogueloader.h" />
+    <ClInclude Include="..\src\dialogueloader_tlk.h" />
+    <ClInclude Include="..\src\direction.h" />
+    <ClInclude Include="..\src\dungeon.h" />
+    <ClInclude Include="..\src\error.h" />
+    <ClInclude Include="..\src\event.h" />
+    <ClInclude Include="..\src\filesystem.h" />
+    <ClInclude Include="..\src\game.h" />
+    <ClInclude Include="..\src\image.h" />
+    <ClInclude Include="..\src\imageloader.h" />
+    <ClInclude Include="..\src\imageloader_png.h" />
+    <ClInclude Include="..\src\imageloader_u4.h" />
+    <ClInclude Include="..\src\imagemgr.h" />
+    <ClInclude Include="..\src\intro.h" />
+    <ClInclude Include="..\src\io.h" />
+    <ClInclude Include="..\src\item.h" />
+    <ClInclude Include="..\src\location.h" />
+    <ClInclude Include="..\src\map.h" />
+    <ClInclude Include="..\src\maploader.h" />
+    <ClInclude Include="..\src\mapmgr.h" />
+    <ClInclude Include="..\src\menu.h" />
+    <ClInclude Include="..\src\moongate.h" />
+    <ClInclude Include="..\src\movement.h" />
+    <ClInclude Include="..\src\music.h" />
+    <ClInclude Include="..\src\names.h" />
+    <ClInclude Include="..\src\object.h" />
+    <ClInclude Include="..\src\observable.h" />
+    <ClInclude Include="..\src\observer.h" />
+    <ClInclude Include="..\src\person.h" />
+    <ClInclude Include="..\src\player.h" />
+    <ClInclude Include="..\src\portal.h" />
+    <ClInclude Include="..\src\progress_bar.h" />
+    <ClInclude Include="..\src\rle.h" />
+    <ClInclude Include="..\src\savegame.h" />
+    <ClInclude Include="..\src\scale.h" />
+    <ClInclude Include="..\src\screen.h" />
+    <ClInclude Include="..\src\script.h" />
+    <ClInclude Include="..\src\settings.h" />
+    <ClInclude Include="..\src\shrine.h" />
+    <ClInclude Include="..\src\sound.h" />
+    <ClInclude Include="..\src\spell.h" />
+    <ClInclude Include="..\src\stats.h" />
+    <ClInclude Include="..\src\textcolor.h" />
+    <ClInclude Include="..\src\textview.h" />
+    <ClInclude Include="..\src\tile.h" />
+    <ClInclude Include="..\src\tileanim.h" />
+    <ClInclude Include="..\src\tilemap.h" />
+    <ClInclude Include="..\src\tileset.h" />
+    <ClInclude Include="..\src\types.h" />
+    <ClInclude Include="..\src\u4.h" />
+    <ClInclude Include="..\src\u4_sdl.h" />
+    <ClInclude Include="..\src\u4file.h" />
+    <ClInclude Include="..\src\unzip.h" />
+    <ClInclude Include="..\src\utils.h" />
+    <ClInclude Include="..\src\vc6.h" />
+    <ClInclude Include="..\src\view.h" />
+    <ClInclude Include="..\src\weapon.h" />
+    <ClInclude Include="..\src\xml.h" />
+    <ClInclude Include="..\src\sound_p.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\xu4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\win32\xu4.rc" />
+  </ItemGroup>
+</Project>

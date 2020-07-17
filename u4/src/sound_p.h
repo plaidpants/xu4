@@ -41,8 +41,9 @@ typedef void U4AudioController;
 # endif
 typedef U4AudioController OSSoundChunk;
 #else // SDL
-struct Mix_Chunk;
-typedef Mix_Chunk OSSoundChunk;
+#include "SDL_mixer.h"
+
+#define OSSoundChunk Mix_Chunk
 #endif
 
 #include <string>

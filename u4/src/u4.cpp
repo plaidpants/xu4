@@ -26,6 +26,7 @@
 #include "sound.h"
 #include "tileset.h"
 #include "utils.h"
+#include "SDL.h"
 
 #if defined(MACOSX)
 #include "macosx/osxinit.h"

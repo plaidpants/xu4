@@ -36,6 +36,7 @@
 #include "u4_sdl.h"
 #include "u4file.h"
 #include "utils.h"
+#include "SDL_thread.h"
 
 using std::vector;
 
